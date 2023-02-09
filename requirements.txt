@@ -5,3 +5,4 @@ pyOpenSSL==18.0.0
 Twisted>=18.7.0
 service-identity
 semver
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
